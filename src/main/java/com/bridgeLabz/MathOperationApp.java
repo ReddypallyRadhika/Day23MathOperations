@@ -1,7 +1,7 @@
 package com.bridgeLabz;
-//UC1.4
-//Ability to iterate through list of no. & print each element in double
-// - Use  predicate Function interface for conversion
+//UC1.5
+//Ability to iterate through list of no. & print only if it is even
+// - Use  predicate Function interface to check
 public class MathOperationApp {
     public static void main(String[] args)
     {
