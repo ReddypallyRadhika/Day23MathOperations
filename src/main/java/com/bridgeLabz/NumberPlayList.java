@@ -3,6 +3,7 @@ package com.bridgeLabz;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.function.Consumer;
+import java.util.function.Function;
 
 public class NumberPlayList {
     public static  void main(String[]args)
@@ -43,6 +44,11 @@ public class NumberPlayList {
         //method5:Implicit lambda function
         myNumberlist.forEach(n->{
             System.out.println("Mth5:forEach Lambda impl value::" + n);
+        });
+        //method6: Implicit lambda function to print double value
+        Function<Integer,Double> toDoubleFunction=Integer::doubleValue;
+        myNumberlist.forEach(n->{
+            System.out.println("Mth6:forEach Lambda double value::" + toDoubleFunction.apply(n));
         });
     }
 

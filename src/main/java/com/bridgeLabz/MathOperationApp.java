@@ -1,7 +1,7 @@
 package com.bridgeLabz;
-//UC1.2
-//Ability to show the results of Math Operation of Addition,Subtraction and Division
-// - Pass Lambda Function to show result
+//UC1.4
+//Ability to iterate through list of no. & print each element in double
+// - Use  predicate Function interface for conversion
 public class MathOperationApp {
     public static void main(String[] args)
     {
